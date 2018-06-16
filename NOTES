@@ -1,0 +1,74 @@
+Here are some notes:
+
+*** HTML ***
+
+<img> - include an image. 
+optional: "alt" attribute
+Example: <img src="image-location.jpg" alt="Image Description"/>
+
+<h1><h2><h3><h4> - headers. h1 = largest.
+Example: <h2>Habitat</h2>
+
+<ol> - ordered list. 
+Example: 
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+
+unordred list:
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+
+<p> paragraph.
+Example: <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+
+<br /> break.  Essentially a new line char
+Example: <strong>Least Concern</strong>.<br /><br />
+
+<strong> - BOLD text.
+<strong>Least Concern</strong>
+
+<em> - italisize.
+Example: <em>Ursus arctos</em>
+
+<div> divides sections:
+Example: <div id="introduction">
+...
+</div>
+
+<span> - contains short pieces of text (or other HTML). Used to separate small pieces of content that on the same line as other content.
+Example:
+   <p><span>Self-driving cars</span> are anticipated to replace up to 2 million jobs over the next two decades.</p>
+</div>
+
+<video> - self explaitory
+<video src="myVideo.mp4" width="320" height="240" controls>
+  Video not supported
+</video>
+
+head - for the before body
+<head>
+    <title>Brown Bears
+    </title>
+</head>
+
+a, or "anchor" - links.
+Example: <a href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a>
+to open in another tab, include target="_blank" like so:
+<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>
+
+Linking to the same page:
+<ol>
+  <li><a href="#top">Top</a></li>
+  <li><a href="#bottom">Bottom</a></li>
+</ol> (include '#')
+
+<!--this is a comment-->
+
+
