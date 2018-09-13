@@ -23,12 +23,12 @@ body {
 }
 
 #banner {
-  background-image: url("/Users/patrick/Website/testWebsite/backgroud_pic.jpg");
+  background-image: url("img/backgroud_pic.jpg");
   background-size: cover;
   background-position: bottom center;
   //height: 600px;;
   //width: 100%;
-  height: 700px;
+  height: 600px;
 }
 
 #banner .content h1 {
