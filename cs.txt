@@ -1,0 +1,24 @@
+
+What have I created?
+
+This website!
+  Personal website coded with HTML, CSS and Bootstrap4
+
+VST Subtractive Synth:
+  Created a synthesiser using JUCE framework in C++
+  <b>Pure Data(Pd) prototype</b>:(github link)
+  <b>Audio Application</b>: 
+
+Timestretch algorithm: 
+	Created an interpolating timestretch algorithm written in Python (with Josh Griffin)
+
+Tremolo effect for STMf4Discovery: 
+	Created tremolo effect for STMf4Discovery microcontroller in C
+
+  
+What can I do?
+Tools: git, GitHub, vim and vi, gdb, Valgrind, XCode, Eclipse, JUCE, Scrum, Agile 
+Languages: Java, C, C++, Python, HTML5, CSS, Bootstrap4, LaTeX, Bash, ARM assembly 
+Skills:
+
+

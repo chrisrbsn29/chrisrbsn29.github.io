@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<!--Hi, hope you're having a good day!
-Huge thanks to Gauri Iyer (https://iyergauri.com/) for the 
-help with Bootstrap and overall website design inspiration. -->
 <html lang="en">
 <head>
-  <title>Christopher Robinson: home </title>
+  <title>Christopher Robinson: about me </title>
   <meta charset="utf-8">
 
   <!--stylesheets-->
@@ -15,7 +12,7 @@ help with Bootstrap and overall website design inspiration. -->
 </head>
 <body>
   <!--top bar-->
-  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
+  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #406eb4;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,10 +25,10 @@ help with Bootstrap and overall website design inspiration. -->
     <!--page links-->
     <div class="collapse navbar-collapse justify-content-end" id="nav-content">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href=aboutme.html>About Me</a>
         </li>
         <li class="nav-item">
@@ -45,19 +42,53 @@ help with Bootstrap and overall website design inspiration. -->
   </nav>
 
   <!--page of content-->
-  <img src="pics/home.jpg" alt="Chris staring majestically into nature">
-  <div class="title">
-    <b>Home</b>
-  </div>
-  <div class="info">
-    Email: chrisrbsn29 [at] gmail [dot] com
-    <br>
-    Interdisciplinary Computing and the Arts B.A.
-    <br>
-    Computer Science minor
-    <br>
-    University of California, San Diego (exp. grad 2020)
-  </div>
+  <!--div class="container"-->
+    <img src="pics/aboutmeEdited.jpg" alt="Chris awkwardly posing on a rock in Zion National Park">
+    <div class="title" style="color: white;">
+      <b>About Me</b>
+    </div>
+    <div class="about-me-left">
+
+      <div class="question">
+        <b>Who am I?</b>
+        <br>
+        My name is Chris and I write music, produce music and and write software for creating music.
+      </div>
+
+      <div class="question">
+        <b>What instruments do I play?</b>
+        <br>
+        ALL OF THEM
+      </div>
+
+      <div class="question">
+        <b>What DAW do I wield?</b>
+        <br>
+        Ableton Live 9 Suite.
+      </div>
+    </div>
+
+    <div class="about-me-right">
+      <div class="question">
+        <b>What do I want to be when I grow up?</b>
+        <br>
+        I'd be happy doing anything with music, regardless of whether that's creating music software tools or touring the world with a band.
+      </div>
+
+      <div class="question">
+        <b>Where am I currently located?</b>
+        <br>
+        San Diego, California. Specifically, La Jolla.
+      </div>
+      
+      <div class="question">
+        <b>Interesting tidbits about me?</b>
+        <br>
+        I speak fluent German and am a German citizen (as well as an American one). 
+      </div>
+
+    </div>
+  <!--/div-->
 
   <!--Scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
