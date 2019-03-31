@@ -1,0 +1,118 @@
+.wrapper{
+  padding: 10px;
+}
+
+h1{
+  font-weight: 200;
+  font-size: 72px;
+}
+
+img{
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: -1;
+}
+
+.img-fluid{
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  align: center;
+  border: 2px solid white;
+  width: 100%;
+  //height: auto;
+  max-width: 12em;
+  min-width: 8em;
+  object-fit: contain;
+}
+
+a img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+a img:hover {
+   opacity: 0.5;
+}
+
+.row{
+  margin: 1em;
+  padding: 20px;
+}
+
+p{
+  color: white;
+  font-style: italic;
+}
+
+footer{
+  //padding: 2em;
+  flex-shrink: 0;
+  max-width: 100%; 
+}
+
+footer img{
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 1em;
+  width: 100%;
+  height: auto;
+  max-width: 8em;
+  min-width: 4em;
+}
+
+h2{
+  color: white;
+  font-weight: 200;
+  font-size: 2.5em;
+  padding: 5px;
+  border: 2px solid white;
+  opacity: 1;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5; 
+  text-decoration: none;
+}
+
+.active {
+  color: #555555;
+}
+
+h2:hover {
+  opacity: 0.5; 
+}
+
+h3{
+  color: white;
+  font-weight: 200;
+}
+ 
+.back{
+  position: relative;
+  width: 30%;
+  border: none;
+} 
+
+iframe{
+  display: block;
+  margin: 50px auto;
+}
