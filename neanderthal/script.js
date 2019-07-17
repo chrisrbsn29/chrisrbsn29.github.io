@@ -24,6 +24,8 @@ function resizeBG(){
 
   else{                         //if width is less than height
     console.log("height > width");
+    console.log(window.innerHeight + " x " +  window.innerWidth);
+    console.log("og: " + height + " x " +  width);
     var size = "auto " + window.innerHeight + "px";
     document.body.style.backgroundSize = size;
   }
