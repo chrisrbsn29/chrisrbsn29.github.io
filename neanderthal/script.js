@@ -1,9 +1,21 @@
 //script for dynamically resizing background image
+window.onload = function() {
 
-var img = new Image();
-img.src = document.body.style.backgroundImage.replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
-var width = img.width;
-var height = img.height;
+    var imageSrc = document
+                    .body
+                     .style
+                      .backgroundImage
+                       .replace(/url\((['"])?(.*?)\1\)/gi, '$2')
+                        .split(',')[0];
+
+    var image = new Image();
+    image.src = imageSrc;
+    var width = image.width,
+        height = image.height;
+    alert('width =' + width + ', height = ' + height)    
+
+}
+
 var ratio = height / width;
 document.body.style.backgroundRepeat = 'no-repeat';
 document.body.style.backgroundAttachment = 'fixed';
