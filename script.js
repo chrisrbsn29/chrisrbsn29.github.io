@@ -1,7 +1,7 @@
 //script for dynamically resizing background image
 
 var img = new Image();
-img.src = document.body.style.backgroundImage.replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
+img.src = document.body.style.backgroundImage.replace((/url\(['"]?(.*)['"]?\)/gi, '$1').split(',')[0];
 var width = img.width;
 var height = img.height;
 var ratio = height / width;
