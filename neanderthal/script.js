@@ -8,6 +8,8 @@ var ratio = height / width;
 console.log(document.body.style.backgroundSize);
 document.body.style.backgroundRepeat = 'no-repeat';
 document.body.style.backgroundAttachment = 'fixed';
+var size = window.innerWidth + "px ";
+document.body.style.backgroundSize = size;
 
 resizeBG();
 
