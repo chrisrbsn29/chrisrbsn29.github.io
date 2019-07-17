@@ -44,8 +44,13 @@ p{
 
 h1{ 
   font-weight: 200;
-  //font-size: 72px;
-  font-size: 3em;
+  font-size: 72px;
+  //font-size: 3em;
+}
+
+h2{
+  font-weight: 300;
+  font-size: 30px;
 }
 
 img{
@@ -58,19 +63,7 @@ img{
   overflow: hidden;
   display: inline-block;
 }
- 
-.info{
-  position: absolute;
-  font-weight: 300;
-  font-size: 24px;
-  bottom: 25%;
-  left: 10%;
-}
     
-.h2{
-  font-size: 36px;
-}
-
 .row{
   margin: 1em;
   padding: 20px;

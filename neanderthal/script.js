@@ -5,10 +5,9 @@ img.src = document.body.style.backgroundImage.replace(/url\((['"])?(.*?)\1\)/gi,
 var width = img.width;
 var height = img.height;
 var ratio = height / width;
-console.log(document.body.style.backgroundSize);
 document.body.style.backgroundRepeat = 'no-repeat';
 document.body.style.backgroundAttachment = 'fixed';
-var size = window.innerWidth + "px ";
+var size = window.innerWidth + "px";
 document.body.style.backgroundSize = size;
 
 resizeBG();
@@ -18,11 +17,13 @@ function resizeBG(){
  // document.body.style.backgroundPosition = 'center';
 
   if(currentRatio < ratio){     //if height is less than width
-    var size = window.innerWidth + "px ";
+    console.log("height < width");
+    var size = window.innerWidth + "px";
     document.body.style.backgroundSize = size;
   }
 
   else{                         //if width is less than height
+    console.log("height > width");
     var size = "auto " + window.innerHeight + "px";
     document.body.style.backgroundSize = size;
   }
