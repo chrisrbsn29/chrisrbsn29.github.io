@@ -13,6 +13,12 @@ document.body.style.backgroundSize = size;
 resizeBG();
 
 function resizeBG(){
+  if(width == 0 || height == 0){
+    var width = img.width;
+    var height = img.height;
+    var ratio = height / width;
+  }
+
   var currentRatio = window.innerHeight/window.innerWidth;
  // document.body.style.backgroundPosition = 'center';
 
