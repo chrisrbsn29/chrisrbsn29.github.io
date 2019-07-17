@@ -14,6 +14,7 @@ resizeBG();
 
 function resizeBG(){
   if(width == 0 || height == 0){
+    console.log("are u even going here? " + img.width + " x " + height);
     var width = img.width;
     var height = img.height;
     var ratio = height / width;
