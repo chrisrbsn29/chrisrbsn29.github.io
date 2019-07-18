@@ -1,5 +1,7 @@
 //script for dynamically resizing background image
 var size, img, width, height, ratio;
+width = 3840;
+height = 2280;
 img = new Image();
 img.src = document.body.style.backgroundImage.replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
 console.log(img.src);
@@ -11,7 +13,7 @@ document.body.style.backgroundAttachment = 'fixed';
 size = window.innerWidth + "px";
 document.body.style.backgroundSize = size;
 console.log(ratio + " " + width + " " + height );
-alert('width =' + width + ', height = ' + height)
+alert('AAAHH width =' + width + ', height = ' + height)
 
 resizeBG();
 
