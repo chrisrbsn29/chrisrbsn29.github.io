@@ -6,18 +6,19 @@ console.log(img.src);
 width = img.width;
 height = img.height;
 ratio = height / width;
-console.log(document.body.style.backgroundSize);
 document.body.style.backgroundRepeat = 'no-repeat';
 document.body.style.backgroundAttachment = 'fixed';
 size = window.innerWidth + "px";
 document.body.style.backgroundSize = size;
 console.log(ratio + " " + width + " " + height );
+alert('width =' + width + ', height = ' + height)
 
 resizeBG();
 
 function resizeBG(){
-console.log(ratio + " " + width + " " + height );
-  if(width == 0 || height == 0){
+  console.log(ratio + " " + width + " " + height );
+  if(!(width > 0 && height > 0)){
+    console.log("here?");
     width = img.width;
     height = img.height;
     ratio = height / width;
