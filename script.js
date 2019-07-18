@@ -37,4 +37,4 @@ function resizeBG(){
     document.body.style.backgroundSize = size;
   }
 }
-window.onresize = resizeBG;
+window.onresize = window.onload = resizeBG;
