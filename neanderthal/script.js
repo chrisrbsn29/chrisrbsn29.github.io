@@ -4,7 +4,7 @@ img = new Image();
 img.src = document.body.style.backgroundImage.replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
 console.log(img.src);
 
-  if(!(width > 0 && height > 0)){
+  while(!(width > 0 && height > 0)){
     console.log("hr?");
     width = img.width;
     height = img.height;
