@@ -22,7 +22,7 @@ function resizeBG(){
   }
 
   //var currentRatio = window.innerHeight/window.innerWidth;
-  var currentRatio = $.windowHeight/$windowWidth;
+  var currentRatio = $.windowHeight/$.windowWidth;
  // document.body.style.backgroundPosition = 'center';
 
   if(currentRatio < ratio){     //if height is less than width
