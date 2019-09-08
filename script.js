@@ -10,7 +10,9 @@ document.body.style.backgroundAttachment = 'fixed';
 size = window.innerWidth + "px";
 document.body.style.backgroundSize = size;
 
-resizeBG();
+$( document ).ready(function() {
+  resizeBG();
+});
 
 function resizeBG(){
   if(!(width > 0 && height > 0)){
@@ -19,7 +21,8 @@ function resizeBG(){
     ratio = height / width;
   }
 
-  var currentRatio = window.innerHeight/window.innerWidth;
+  //var currentRatio = window.innerHeight/window.innerWidth;
+  var currentRatio = $.windowHeight/$windowWidth;
  // document.body.style.backgroundPosition = 'center';
 
   if(currentRatio < ratio){     //if height is less than width
