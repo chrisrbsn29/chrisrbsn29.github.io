@@ -14,7 +14,7 @@ body{
 img{
   min-height: 100%;
   min-width: 100%;
-  //height: auto;
+  /* height: auto; */
   position: fixed;
   z-index: -1;
 }
@@ -25,15 +25,15 @@ img{
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  align: center;
+  /* align: center; */
   border: 2px solid white;
   width: 100%;
-  //height: auto;
+  /* height: auto; */
   max-height: 12em;
   max-width: 12em;
   min-height: 8em;
   min-width: 8em;
-  //object-fit: contain;
+  /* object-fit: contain; */
 }
 
 a img {
@@ -58,7 +58,7 @@ p{
 }
 
 footer{
-  //padding: 2em;
+  /* padding: 2em; */
   flex-shrink: 0;
   max-width: 100%; 
 }
